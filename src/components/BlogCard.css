@@ -1,0 +1,52 @@
+.blogCard {
+  width: 25%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid rgba(128, 128, 128, 0.114);
+  background-color: white;
+}
+.blogCard > .image img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  max-height: 250px;
+}
+.blogCard > .blogTitle {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  max-lines: 2;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.blogCard > .sortDesc {
+  color: grey;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  max-lines: 2;
+  text-overflow: ellipsis;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.blogCard > .date-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.blogCard > .tag {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+
+}
+.blogCard > .tag p {
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px;
+  padding-right: 10px;
+  background-color: white;
+  border: 1px solid green;
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
